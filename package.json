@@ -1,0 +1,25 @@
+{
+  "name": "registry",
+  "description": "npm2es API wrapper",
+  "version": "0.0.1",
+  "homepage": "http://github.com/gulpjs/registry",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gulpjs/registry.git"
+  },
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "main": "./index.js",
+  "dependencies": {
+    "bouncy": "^3.2.1",
+    "minimist": "0.0.8"
+  },
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/gulpjs/registry/raw/master/LICENSE"
+    }
+  ]
+}
