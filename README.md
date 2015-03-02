@@ -1,7 +1,7 @@
 ## Information
 
 <table>
-<tr> 
+<tr>
 <td>Package</td><td>registry</td>
 </tr>
 <tr>
@@ -21,7 +21,14 @@
 node bin/proxy.js --port 80 --es http://localhost:9200/npm
 ```
 
-This will simply proxy all GET request to the specified ElasticSearch URL
+```
+node bin/replicate.js --npm http://skimdb.npmjs.com/registry --es http://localhost:9200/npm
+```
+
+```
+node bin/all.js --port 80 --npm http://skimdb.npmjs.com/registry --es http://localhost:9200/npm
+```
+
 
 ### Putting npm into elasticsearch
 
