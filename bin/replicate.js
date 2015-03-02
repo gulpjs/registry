@@ -20,11 +20,6 @@ function startIt() {
     console.log('Replicator died, spinning up a new one');
     startIt();
   });
-  proc.once('stderr', function(){
-    console.log('Replicator errored, spinning up a new one');
-    proc.kill('SIGHUP');
-    startIt();
-  });
 }
 
 startIt();
